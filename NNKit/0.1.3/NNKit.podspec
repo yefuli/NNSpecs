@@ -38,5 +38,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'mob_sharesdk'
-  #s.dependency 'mob_sharesdk/ShareSDKPlatforms/QQ'
+  s.dependency 'mob_sharesdk/ShareSDKPlatforms/QQ'
+  s.dependency 'mob_sharesdk/ShareSDKPlatforms/SinaWeibo'
+  s.dependency 'mob_sharesdk/ShareSDKPlatforms/WeChat'
+  s.dependency 'mob_sharesdk/ShareSDKExtension'
+  
 end
